@@ -12,13 +12,15 @@ body {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    background: #1F2937;
     padding: 0 250px;
+    background: grey;
 }
 
 .awesome-part {
-    background: #1F2937;
+    background-image: url("img/massage.jpg");
     display: flex;
+    background-size: cover;
+
 }
 
 .header-links {
@@ -38,7 +40,7 @@ body {
 
 .text-awesome {
     color: #F9FAF8;
-    max-width: 400px;
+    max-width: 450px;
     font-size: 18px;
     padding: 4px;
 }
@@ -46,7 +48,7 @@ body {
 .awesome-titel {
     color: #F9FAF8;
     font-size: 48px;
-    max-width: 300px;
+    max-width: 400px;
     font-weight: 800;
     padding: 4px;
 }
@@ -54,19 +56,20 @@ body {
 a {
     list-style: none;
     text-decoration: none;
-    color: lightslategrey;
+    color: white;
 }
 
 .awesome-posible-image {
     box-sizing: border-box;
     width: 520px;
     height: 230px;
-    background: lightslategrey;
+background-image: url("img/tools.jpg");
     color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 .awesome-part {
@@ -91,6 +94,7 @@ a {
     font-size: 36px;
     font-weight: 800;
     padding: 50px;
+    background: grey;
 }
 
 .info-parts {
@@ -98,6 +102,7 @@ a {
     justify-content: center;
     gap: 60px;
     padding-bottom: 100px;
+    background: grey;
 }
 
 .info-possible-picture {
@@ -116,11 +121,38 @@ a {
     max-width: 150px;
     text-align: center;
 }
+
+.box1 {
+    background-image: url("img/kids.jpg");
+    resize: horizontal;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url("img/face.jpg");
+    resize: horizontal;
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url("img/dyr.jpg");
+    resize: vertical;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url("img/nakke.jpg");
+    resize: both;
+    background-size: cover;
+}
+
 .quote-part {
-    background: grey;
+    background-image: url("img/relax.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 100px ;
+
 
 }
 
