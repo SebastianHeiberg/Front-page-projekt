@@ -112,3 +112,23 @@ a {
     max-width: 150px;
     text-align: center;
 }
+.quote-part {
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 100px ;
+
+}
+
+.quote-quote {
+    font-size: 36px;
+    max-width: 750px;
+    padding-left: 275px;
+}
+
+.quote-thor {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 300px;
+}
