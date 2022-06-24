@@ -40,6 +40,7 @@ body {
     color: #F9FAF8;
     max-width: 400px;
     font-size: 18px;
+    padding: 4px;
 }
 
 .awesome-titel {
@@ -47,6 +48,7 @@ body {
     font-size: 48px;
     max-width: 300px;
     font-weight: 800;
+    padding: 4px;
 }
 
 a {
@@ -79,6 +81,7 @@ a {
     width: 125px;
     background: #3882F6;
     color: #F9FAF8;
+    padding: 4px;
 }
 
 .info-title {
@@ -161,4 +164,13 @@ a {
     font-size: 24px;
 }
 
+.buttom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background: black;
+    padding: 50px;
+    font-size: 18px;
+}
 
