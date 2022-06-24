@@ -4,6 +4,7 @@ body {
     margin-top: 0;
     font-family: Besley, serif;
     border-color: black;
+    flex-shrink: 0;
 
 }
 
@@ -132,3 +133,32 @@ a {
     text-align: right;
     padding-right: 300px;
 }
+
+.signUp-part {
+    display: flex;
+    padding: 50px 100px;
+    margin: 100px 250px;
+    background: #3882F6;
+    justify-content: space-between;
+    /*gap: 120px;*/
+    color: white;
+    border-radius: 8px;
+}
+
+.button-sign-up-alternate{
+    background: #3882F6;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.signup-title {
+    font-size: 24px;
+}
+
+
